@@ -1,0 +1,6 @@
+[10-Aug-2021 10:25:05 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on string in /home/ebanavaj/public_html/account/modules/script.php:107
+Stack trace:
+#0 /home/ebanavaj/public_html/account/client.php(22): User->getRecodesWithPagination('tracking')
+#1 /home/ebanavaj/public_html/account/home.php(114): include('/home/ebanavaj/...')
+#2 {main}
+  thrown in /home/ebanavaj/public_html/account/modules/script.php on line 107

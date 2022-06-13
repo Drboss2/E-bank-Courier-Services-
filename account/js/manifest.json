@@ -1,0 +1,59 @@
+{
+  "short_name": "FXSwith",
+  "name": "FXSwith",
+  "lang": "en-UK",
+  "description": "FXSwith is totally different from its competitors trying to achieve something special starting with the website design, trading platform, and extremely functional. Since first beginning a few years ago, FXSwith has created a name for itself between traders. The broker is magnificent for traders because of its solid trading platform and a diversity of assets to trade.",
+  "icons": [{
+    "src": "../images/icon/Icon-36.png",
+    "type": "image/png",
+    "sizes": "36x36"
+  }, {
+    "src": "../images/icon/Icon-48.png",
+    "type": "image/png",
+    "sizes": "48x48"
+  }, {
+    "src": "../images/icon/Icon-72.png",
+    "type": "image/png",
+    "sizes": "72x72"
+  }, {
+    "src": "../images/icon/Icon-96.png",
+    "type": "image/png",
+    "sizes": "96x96"
+  }, {
+    "src": "../images/icon/Icon-152.png",
+    "type": "image/png",
+    "sizes": "152x152"
+  }, {
+    "src": "../images/icon/Icon-192.png",
+    "type": "image/png",
+    "sizes": "192x192"
+  }, {
+    "src": "../images/icon/Icon-512.png",
+    "type": "image/png",
+    "sizes": "512x512"
+  }, {
+    "src": "../images/icon/Icon-144.png",
+    "type": "image/png",
+    "sizes": "144x144"
+  }, {
+      "src": "../images/icon/Icon-48.png",
+      "type": "image/png",
+      "sizes": "48x48"
+    },
+    {
+      "src": "../images/icon/Icon-96.png",
+      "type": "image/png",
+      "sizes": "96x96"
+    },
+    {
+      "src": "../images/icon/Icon-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    }
+  ],
+  "background_color": "#ffffff",
+  "theme_color": "#FCB116",
+  "display": "standalone",
+  "orientation": "portrait",
+  "start_url": "../index?launcher=true"
+}

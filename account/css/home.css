@@ -1,0 +1,229 @@
+body{
+	background: #f9f9f9;
+	color: #333 !important;
+	padding: 0 !important;
+	margin: 0 !important;
+}
+.mytable>tbody>tr>td,.mytable>tr>th, .mytable>tr>td, .mytable>tbody>tr>td, .mytable>tfoot>tr>td, .mytable>tfoot>tr>th, .mytable>thead>tr>td, .mytable>tr>th {
+    padding: 5px !important;
+    font-size:14px !important;
+}
+.udex-main{
+	-moz-transition:margin-left .4s;
+	-o-transition:margin-left .4s;
+	-webkit-transition:margin-left .4s;
+	transition:margin-left .4s;
+	margin-left:250px;
+	padding: 12px 20px;
+}
+.udex-sidebar{
+	background:#fff;
+	background-size: cover;
+	position:absolute;
+	z-index:1;
+	overflow:auto;
+	width: 250px;
+	height: 100%;
+	color: #333;
+}
+@media (min-width:768px){
+	.udex-hide-large{
+		display:none!important;
+	}
+	.udex-sidebar.udex-collapse{
+		display:block!important}
+	.udex-main{
+		min-height:90vh !important;
+	}
+}
+@media (max-width:768px){
+	.udex-sidebar.udex-collapse, .udex-hidden{
+		display:none;
+	}
+	.udex-main{
+		margin-left:0 !important;
+		margin-right:0 !important;
+		padding: 12px 8px !important;
+	}
+	.udex-animate-left{position:relative;animation:animateleft 0.4s}
+	@keyframes animateleft{from{left:-250px;opacity:0} to{left:0;opacity:1}}
+	@keyframes animateright{from{right:-250px;opacity:0} to{right:0;opacity:1}}
+	.cubic-left {
+		transition: transform .4s cubic-bezier(0.2, 0.7, 0.5, 1) 0s;
+		-ms-transform: translateX(250px);
+		-webkit-transform: translateX(250px);
+		transform: translateX(250px);
+	}
+	.udex_overflow { overflow: hidden; }
+}
+	
+.udex-animate-right{position:relative;animation:animateright 0.4s}
+.cubic-right {
+	transition: transform .4s cubic-bezier(0.2, 0.7, 0.5, 1) 0s;
+	-ms-transform: translateX(-250px);
+	-webkit-transform: translateX(-250px);
+	transform: translateX(-250px);
+}
+
+.udex-sidebar ul.nav {
+	padding: 6px;
+}
+.udex-sidebar ul.nav a{
+	padding: 8px 20px;
+	color: #333;
+	font-size: 14px;
+	transition: all 0.5s;
+	border-radius: 10px;
+}
+.udex-sidebar ul.nav a:hover{
+	color: #2970fa;
+}
+
+.udex-sidebar ul.nav li.active a{
+	color: #2970fa;
+}
+.udex-sidebar ul.nav a i{
+	width: 30px;
+	height: 30px;
+	line-height: 29px;
+	border-radius: 50%;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	text-align: center;
+	margin-right: 12px;
+	font-size: 12px;
+	color: rgba(0, 0, 0, 0.5);
+	transition: all 0.5s;
+}
+.udex-sidebar ul.nav li.active a i, .udex-sidebar ul.nav a:hover i{
+	border: 1px solid #2970fa;
+	color: #2970fa;
+}
+
+.navbar {
+	border-bottom: none;
+}
+.bg-dark {
+	background-color: #444444 !important;
+}
+.navbar a:hover {
+	text-decoration: none;
+}
+.navbar.navbar-expand-sm a {
+	text-decoration: none;
+	color: #111111 !important;
+}
+
+
+
+
+
+
+.r4_counter {
+    min-height: 60px;
+    border-radius: 4px;
+	position: relative;
+	overflow: hidden;
+    transition: all 0.3s ease-in-out;
+	background: linear-gradient(135deg, #3B3B3B 50%, #222);
+	display: block;
+    -webkit-box-shadow: 0 2px 4px rgba(0,0,0,.1);
+	box-shadow: 0 2px 4px rgba(0,0,0,.1);
+	color: #808080;
+	font-size: 12px;
+}
+.r4_counter::after {
+	content: '';
+	position: absolute;
+	bottom: 0px;
+	width: 50%;
+	height: 4px;
+}
+.r4_counter::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	background: url(../images/cryptonia-ico-lg.png) no-repeat right 0/contain;
+	opacity: 0.05;
+	filter: alpha(opacity=5);
+}
+.r4_counter:hover {
+	text-decoration: none;
+}
+.db_box {
+    padding: 15px;
+}
+.r4_counter h3 {
+	margin: 0px;
+	font-size: 22px;
+	font-weight: 600;
+}
+
+
+
+#imgArea {
+	display: block;
+	margin: 0 auto;
+	position: relative;
+	font-size: 13px;
+}
+#imgArea img {
+	outline: medium none;
+	vertical-align: middle;
+	width: 100%;
+}
+#imgContainer {
+	width: 100%;
+	text-align: center;
+	position: relative;
+}
+#imgChange input[type="file"] {
+	bottom: 0;
+	cursor: pointer;
+	height: 100%;
+	left: 0;
+	margin: 0;
+	opacity: 0;
+	padding: 0;
+	position: absolute;
+	width: 100%;
+}
+/* Progressbar */
+.progressBar {
+	background: none repeat scroll 0 0 #fff;
+	left: 0;
+	padding: 5px 0;
+	position: absolute;
+	top: 50%;
+	width: 100%;
+	display: none;
+}
+.progressBar .bar {
+	background-color: #2196f3;
+	width: 0%;
+	height: 18px;
+}
+.progressBar .percent {
+	display: inline-block;
+	left: 0;
+	position: absolute;
+	text-align: center;
+	top: 5px;
+	color: #FFF;
+	width: 100%;
+}
+#imgChange {
+	position: relative;
+}
+.dashedbtn {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	height: 40px;
+	width: 40px;
+	line-height: 40px;
+	border-radius: 50%;
+	border: 1px solid rgba(255, 255, 255, 0.5);
+}
